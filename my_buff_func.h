@@ -2,8 +2,8 @@
 #define MY_BUFF_FUNC_H
 
 void buff_read(char, int);
-void buff_move(char, int);
-void buff_clean(char);
+void buff_move(unsigned char,unsigned char, int);
+void buff_clean(unsigned char);
 
 
 

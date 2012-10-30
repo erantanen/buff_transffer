@@ -2,11 +2,19 @@
 
 
 
-void buff_read(char, int);
+void buff_read(unsigned char* data_1, int d_length)
+{
 
 
-void buff_move(char, int);
+
+}
+
+void buff_move(unsigned char* data_1 ,unsigned char* data_2 , int d_length)
+{
 
 
-void buff_clean(char);
+
+}
+
+void buff_clean(unsigned char* data_2);
 
