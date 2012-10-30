@@ -1,0 +1,16 @@
+This program:
+        1.  a buffer(1&2) is created that can handle 16 kilobytes of data
+
+            argv? (include usage)
+        2.  user input for a file to read.
+
+            if != NULL ...
+        3.  open input for reading and output for writing
+
+           start loop !< 0
+                4.  read 16384 bytes of data into buffer
+                5.  move 1 byte at a time to buffer 2 till complete.
+                6.  move buffer 2 to output file
+        7.  close files
+
+
