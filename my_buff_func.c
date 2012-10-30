@@ -16,5 +16,9 @@ void buff_move(unsigned char* data_1 ,unsigned char* data_2 , int d_length)
 
 }
 
-void buff_clean(unsigned char* data_2);
+void buff_clean(unsigned char* data_2)
+{
+
+
+}
 
