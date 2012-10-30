@@ -2,7 +2,7 @@
 
 
 
-void buff_read(unsigned char* data_1, int d_length)
+void buff_read(FILE in_file, unsigned char* data_1, int d_length)
 {
 
 
