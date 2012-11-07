@@ -28,11 +28,11 @@ int buff_move(unsigned char* data_1 ,unsigned char* data_2 , int d_length, int i
 	return iterator;
 }
 
-void buff_clean(unsigned char* data_2)
+void buff_clean(unsigned char* data_2,int size)
 {
 	//Harshitha's code
 	/*FILE *fw=fopen("file1","a");
-	fwrite(buf2,1,size,fw);
+	fwrite(data_2,1,size,fw);
 	*/
 }
 
