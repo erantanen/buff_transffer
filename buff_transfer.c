@@ -34,12 +34,23 @@ int  main(int argc, char *argv[])
                      filehandle_out = fopen("out_put.txt", "w");
        }
        
-       
-
-
-
-
-
+	//fill buffer_1
+	int i;
+	for(i=0; i<17; i++){
+		buffer_1[i] = i;
+	}   
+	
+	//copy into buffer_2
+	int e;
+	for(i=0; i<17; i++){
+		e = buff_move(buffer_1, buffer_2, 17, i);
+		if(e==-1){ //buffer is done copying
+			break;
+		}
+		else{
+			printf("%d\n", buffer_2[i]);
+		}
+	}
 
 
 fclose(filehandle_in);
